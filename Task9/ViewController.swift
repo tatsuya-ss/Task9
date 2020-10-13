@@ -8,24 +8,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet private weak var label: UILabel!
         
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    @IBAction func exit(segue:UIStoryboardSegue){
+    @IBAction private func exit(segue:UIStoryboardSegue){
     }
 
-    @IBAction func tokyo(segue:UIStoryboardSegue){
+    @IBAction private func tokyo(segue:UIStoryboardSegue){
         label.text = "東京都"
     }
-    @IBAction func kanagawa(segue:UIStoryboardSegue){
+    @IBAction private func kanagawa(segue:UIStoryboardSegue){
         label.text = "神奈川県"
     }
-    @IBAction func saitama(segue:UIStoryboardSegue){
+    @IBAction private func saitama(segue:UIStoryboardSegue){
         label.text = "埼玉県"
     }
-    @IBAction func chiba(segue:UIStoryboardSegue){
+    @IBAction private func chiba(segue:UIStoryboardSegue){
         label.text = "千葉県"
     }
 }

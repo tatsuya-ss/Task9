@@ -8,10 +8,10 @@
 import UIKit
 
 class NextViewController: UIViewController {
-    @IBOutlet weak var tokyoButton: UIButton!
-    @IBOutlet weak var kanagawaButton: UIButton!
-    @IBOutlet weak var saitamaButton: UIButton!
-    @IBOutlet weak var chibaButton: UIButton!
+    @IBOutlet private weak var tokyoButton: UIButton!
+    @IBOutlet private weak var kanagawaButton: UIButton!
+    @IBOutlet private weak var saitamaButton: UIButton!
+    @IBOutlet private weak var chibaButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
